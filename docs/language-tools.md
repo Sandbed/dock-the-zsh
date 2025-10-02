@@ -53,7 +53,7 @@ Extensions:
 
 Language Environment Setup:
 
-```
+```Dockerfile
 
 # Install PHP extensions
 
@@ -80,7 +80,7 @@ RUN curl -fsSL https://deb.nodesource.com/setup_20.x | bash - \
 
 Tools to Install:
 
-```
+```Dockerfile
 
 # Install Laravel tools
 
@@ -96,11 +96,12 @@ RUN composer global require laravel/installer \
 
 **Variables to replace:**
 
-```
+```Dockerfile
 - `${BASE_IMAGE}`: `ruby:3.3-bookworm`
 - `${ADDITIONAL_PACKAGES}`: `nodejs npm postgresql-client libpq-dev build-essential libssl-dev libreadline-dev zlib1g-dev`
 - `${ZSH_PLUGINS}`: `rails ruby bundler command-not-found zsh-interactive-cd gitfast`
 - `${POST_CREATE_COMMAND}`: `bundle install && npm install`
+```
 
 **Settings:**
 
@@ -148,7 +149,7 @@ RUN gem install rubocop \
 
 **Variables to replace:**
 
-```
+```Dockerfile
 - `${BASE_IMAGE}`: `python:3.12-bookworm`
 - `${ADDITIONAL_PACKAGES}`: `nodejs npm postgresql-client libpq-dev build-essential`
 - `${ZSH_PLUGINS}`: `django python pip command-not-found zsh-interactive-cd gitfast`

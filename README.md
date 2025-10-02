@@ -15,8 +15,9 @@ Clone this repository:
 
    ```shell
    git clone [https://github.com/your-username/docker-zsh-project.git](https://github.com/your-username/docker-zsh-project.git)
+   ```
 
-Usage
+### Usage
 You can now use the Docker container to run your Zsh-based project. Customize the Dockerfile and the application code to fit your specific needs.
 
 Contributing
