@@ -7,15 +7,19 @@ This repository contains the code for a Docker project using Zsh.
 Before getting started, make sure you have the following installed:
 
 - Docker
-- Zsh shell
 
-## Getting Started
+## Current Goal of this project 
 
-Clone this repository:
+### To install
+```bash
+sh -c "$(curl -fsSL https://your-repo.com/install.sh)"
+sh -c "$(wget -0- https://your-repo.com/install.sh)"
+sh -c "$(fetch -o - https://your-repo.com/install.sh)"
+## windows command here ##
+```
 
-   ```shell
-   git clone [https://github.com/your-username/docker-zsh-project.git](https://github.com/your-username/docker-zsh-project.git)
-   ```
+### Will be using NeoVim as main edior
+
 
 ### Usage
 You can now use the Docker container to run your Zsh-based project. Customize the Dockerfile and the application code to fit your specific needs.
