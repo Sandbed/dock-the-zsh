@@ -8,4 +8,4 @@ else
   echo "Running in bash!"
 fi
 
-echo "dock-the-zsh ready! 🍎"
+echo "dock-thE-ZSH Ready! 🍎"
